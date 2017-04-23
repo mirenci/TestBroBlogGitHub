@@ -1,5 +1,5 @@
 ﻿$(function () {
-    var article = $('.articleWrapperAnchor div');
+    var article = $('.article div');
     //var articleContent = $('.articleWrapperAnchor div p');
     //var author = $('.author');
 

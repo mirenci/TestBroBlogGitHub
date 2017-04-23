@@ -8,7 +8,7 @@
     <div class="row">
         @foreach (var article in Model)
         {
-            <a id="article" href="@Url.Action("Details", "Article", new { @id = article.Id })">
+            <a class="article" href="@Url.Action("Details", "Article", new { @id = article.Id })">
                 <div class="col-sm-6">
                     <article>
                         <header>
